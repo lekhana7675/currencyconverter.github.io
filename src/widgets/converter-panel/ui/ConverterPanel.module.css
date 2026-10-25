@@ -1,0 +1,20 @@
+.panel {
+  display: grid;
+  gap: 1.75rem;
+  padding: clamp(1.25rem, 4vw, 2.25rem);
+  border-radius: 6px;
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+.panel :focus-visible {
+  outline-color: var(--amber-light);
+}
+
+.title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
