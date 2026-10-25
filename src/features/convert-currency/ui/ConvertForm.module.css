@@ -1,0 +1,43 @@
+.form {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.field {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  opacity: 0.85;
+}
+
+.input {
+  width: 100%;
+  padding: 0.6rem 0.9rem;
+  border: 1px solid color-mix(in srgb, currentColor 40%, transparent);
+  border-radius: 10px;
+  background: color-mix(in srgb, currentColor 12%, transparent);
+  color: inherit;
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.input[aria-invalid='true'] {
+  border-color: var(--amber-light);
+}
+
+.hint {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--amber-light);
+}
+
+.swap {
+  display: flex;
+  justify-content: center;
+}
