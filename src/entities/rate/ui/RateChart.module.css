@@ -1,0 +1,77 @@
+.wrap {
+  position: relative;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.svg {
+  display: block;
+  touch-action: pan-y;
+}
+
+.grid {
+  stroke: var(--line);
+  stroke-width: 1;
+}
+
+.tick {
+  font: 500 11.5px var(--font-body);
+  fill: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+}
+
+.area {
+  fill: var(--accent);
+  opacity: 0.1;
+}
+
+.line {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 2.5;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.extreme {
+  fill: var(--amber);
+  stroke: var(--ink);
+  stroke-width: 1.5;
+}
+
+.cursor {
+  stroke: var(--ink);
+  stroke-width: 1;
+  stroke-dasharray: 3 3;
+}
+
+.dot {
+  fill: var(--accent);
+  stroke: var(--surface);
+  stroke-width: 2;
+}
+
+.tipBox {
+  fill: var(--ink);
+}
+
+.tipDate {
+  font: 500 11.5px var(--font-body);
+  fill: #c9d6cf;
+}
+
+.tipValue {
+  font: 700 14px var(--font-display);
+  fill: #ffffff;
+  font-variant-numeric: tabular-nums;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
