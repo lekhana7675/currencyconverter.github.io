@@ -1,0 +1,11 @@
+.skeleton {
+  border-radius: 6px;
+  background: color-mix(in srgb, currentColor 14%, transparent);
+  animation: pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  50% {
+    opacity: 0.5;
+  }
+}
